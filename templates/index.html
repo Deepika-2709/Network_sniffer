@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body style="background:black; color:white; text-align:center;">
+
+<h2>Network Sniffer</h2>
+
+<table border="1" align="center">
+<tr>
+<th>Source</th>
+<th>Destination</th>
+<th>Protocol</th>
+</tr>
+
+<tbody id="data"></tbody>
+</table>
+
+<script>
+setInterval(() => {
+ fetch('/data')
+ .then(res => res.json())
+ .then(d => {
+   let rows = "";
+   d.forEach(p => {
+     rows += `<tr>
+     <td>${p.src}</td>
+     <td>${p.dst}</td>
+     <td>${p.proto}</td>
+     </tr>`;
+   });
+   document.getElementById("data").innerHTML = rows;
+ });
+}, 2000);
+</script>
+
+</body>
+</html>
