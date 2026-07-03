@@ -54,7 +54,7 @@ network_sniffer/
 
 ## **🚀 How to Run the Project**
 
-### **1️⃣ Clone the Repository**
+### **1️⃣ Github Repository**
 ```
 https://github.com/Deepika-2709/Network_sniffer.git
 ```
