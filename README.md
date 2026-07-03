@@ -56,7 +56,7 @@ network_sniffer/
 
 ### **1️⃣ Clone the Repository**
 ```
-git clone https://github.com/your-username/network_sniffer.git
+https://github.com/Deepika-2709/Network_sniffer.git
 ```
 
 ### **2️⃣ Navigate to Folder**
