@@ -64,14 +64,14 @@ https://github.com/Deepika-2709/Network_sniffer.git
 cd network_sniffer
 ```
 
-### **4️⃣ Run the Application**
+### **3️⃣ Run the Application**
 ```
 python app.py
 ```
 
 ---
 
-### **5️⃣ Open in Browser**
+### **4️⃣ Open in Browser**
 ```
 http://127.0.0.1:5000
 ```
