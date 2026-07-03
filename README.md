@@ -1,7 +1,5 @@
 ## **🚀 Network Sniffer Project**
 
----
-
 ## **📌 Project Overview**
 The **Network Sniffer** is a Python-based application that monitors and captures network traffic in real-time. It helps users analyze packets flowing through a network and understand how data is transmitted.
 
